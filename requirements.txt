@@ -1,0 +1,10 @@
+ng new LoanApp_Bank
+
+npm i bootstrap
+npm i font-awesome
+
+"./node_modules/bootstrap/dist/css/bootstrap.min.css",
+"./node_modules/font-awesome/css/font-awesome.min.css",
+
+"bootstrap":"^5.3.3",
+"font-awesome":"^4.7.0",
