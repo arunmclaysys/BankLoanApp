@@ -1,0 +1,66 @@
+.banker-list-container {
+  background-color: #222;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banker-list-content {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+}
+
+.banker-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.banker-list-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.banker-list-close-button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.banker-list-body {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.banker-list-input-area {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.banker-list-textarea {
+  width: 100%;
+  height: 100px;
+  background-color: #555;
+  border-radius: 10px;
+  padding: 10px;
+  resize: none;
+}
+
+.banker-list-input-icons {
+  display: flex;
+  margin-top: 10px;
+}
+
+.banker-list-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+}

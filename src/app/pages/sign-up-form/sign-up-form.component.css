@@ -1,0 +1,58 @@
+/* Modal Container */
+.modal-container {
+  position: relative;
+  background-color: white;
+  border-radius: 0.75em;
+  padding: 2em;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+}
+
+/* Modal Header */
+.modal-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  text-align: center;
+  position: relative;
+}
+
+/* Close Button */
+.close-button {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #888;
+  transition: color 0.2s;
+}
+
+.close-button:hover {
+  color: #000;
+}
+
+/* Form Styles */
+.full-width {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.submit-button {
+  width: 100%;
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 0.75em;
+  border-radius: 0.5em;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+  background-color: #444;
+}
