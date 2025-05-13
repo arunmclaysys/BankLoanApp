@@ -5,8 +5,12 @@
   border-radius: 0.75em;
   padding: 2em;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-  max-width: 400px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 80vh;
+  overflow-y: auto; /* Scroll if content overflows */
   margin: auto;
+  transition: max-width 0.3s, max-height 0.3s;
 }
 
 /* Modal Header */
@@ -55,4 +59,17 @@
 
 .submit-button:hover {
   background-color: #444;
+}
+
+/* Responsive Scaling */
+@media (min-width: 768px) {
+  .modal-container {
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .modal-container {
+    max-width: 1000px;
+  }
 }
