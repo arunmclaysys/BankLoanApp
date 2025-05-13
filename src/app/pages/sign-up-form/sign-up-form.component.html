@@ -1,0 +1,21 @@
+<article class="modal-container">
+  <header class="modal-header">
+    <h2>Sign Up</h2>
+    <em>Hello! Welcome to the family.</em>
+    <button class="close-button" (click)="closeModal()">✕</button>
+  </header>
+  
+  <div [formGroup]="signUpForm" class="modal-body">
+    <mat-form-field class="full-width">
+      <mat-label>Name</mat-label>
+      <input matInput type="text" formControlName="name" />
+    </mat-form-field>
+    
+    <mat-form-field class="full-width">
+      <mat-label>Email Address</mat-label>
+      <input matInput type="email" formControlName="email" />
+    </mat-form-field>
+    
+    <button type="submit" class="submit-button" *ngIf="dialogRef">Continue</button>
+  </div>
+</article>
